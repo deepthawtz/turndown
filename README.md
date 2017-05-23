@@ -1,6 +1,11 @@
 turndown
 ========
 
+`turndown` is useful when you want to scale down an Autoscaling Group by
+a specific host identified by private IP address. Use-case could include
+scaling down a Mesos cluster by specific hosts which have had all their tasks
+drained/migrated and have been scheduled for maintenance.
+
 ## Install
 
 `go install .`
